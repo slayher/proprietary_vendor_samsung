@@ -313,6 +313,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/samsung/trlte-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/samsung/trlte-common/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/samsung/trlte-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/samsung/trlte-common/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/samsung/trlte-common/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/samsung/trlte-common/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+    vendor/samsung/trlte-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/samsung/trlte-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/samsung/trlte-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/samsung/trlte-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/samsung/trlte-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/samsung/trlte-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/samsung/trlte-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/samsung/trlte-common/proprietary/bin/irsc_util:system/bin/irsc_util \
