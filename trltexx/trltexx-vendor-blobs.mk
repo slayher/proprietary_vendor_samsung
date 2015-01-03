@@ -21,6 +21,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trltexx/proprietary/vendor/firmware/bcm43569A1_wisol.hcd:system/vendor/firmware/bcm43569A1_wisol.hcd \
     vendor/samsung/trltexx/proprietary/vendor/firmware/bcm43569.hcd:system/vendor/firmware/bcm43569.hcd \
     vendor/samsung/trltexx/proprietary/vendor/firmware/BT_FW_BCM4358A1_001.002.005.0032.0066.hcd:system/vendor/firmware/BT_FW_BCM4358A1_001.002.005.0032.0066.hcd \
+    vendor/samsung/trltexx/proprietary/system/vendor/firmware/keymaster/keymaster.mdt:system/system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/samsung/trltexx/proprietary/system/vendor/firmware/keymaster/keymaster.b00:system/system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/samsung/trltexx/proprietary/system/vendor/firmware/keymaster/keymaster.b01:system/system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/samsung/trltexx/proprietary/system/vendor/firmware/keymaster/keymaster.b02:system/system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/samsung/trltexx/proprietary/system/vendor/firmware/keymaster/keymaster.b03:system/system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/samsung/trltexx/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/samsung/trltexx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/trltexx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
@@ -63,4 +68,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/trltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/trltexx/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/samsung/trltexx/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
+    vendor/samsung/trltexx/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/trltexx/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so
