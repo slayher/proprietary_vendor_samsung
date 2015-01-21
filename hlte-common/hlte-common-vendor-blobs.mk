@@ -232,6 +232,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/samsung/hlte-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/hlte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/hlte-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/hlte-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
@@ -264,6 +265,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/hlte-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/samsung/hlte-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/samsung/hlte-common/proprietary/etc/sec_config:system/etc/sec_config \
@@ -282,12 +284,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/samsung/hlte-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
     vendor/samsung/hlte-common/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
+    vendor/samsung/hlte-common/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
+    vendor/samsung/hlte-common/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/samsung/hlte-common/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
     vendor/samsung/hlte-common/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/samsung/hlte-common/proprietary/lib/libsensirion_h_2.so:system/lib/libsensirion_h_2.so \
     vendor/samsung/hlte-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/hlte-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/hlte-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/hlte-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
